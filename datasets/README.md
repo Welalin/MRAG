@@ -7,7 +7,9 @@ It was generated using our synthetic dataset generator: `multirag datagen`.
 It consists of 25 categories with 50 distinct documents in each category.
 The documents are based on the summary of Wikipedia articles and each document contains at least 800 characters.
 
-Please uncompess `wikipedia_articles.json.bz2` using `bunzip2` before using it.
+In Linux machine, please uncompess `wikipedia_articles.json.bz2` using `bunzip2` before using it.
+
+In windows machine you can use: `7z x .\wikipedia_queries.json.bz2` and `7z x .\wikipedia_articles.json.bz2` and then run `mv .\wikipedia_articles.json articles.json` and `mv .\wikipedia_queries.json queries.json`.
 
 For the format of the JSON file see the respective [section](../multirag/dataset/README.md#dataset-output-format) in the dataset module documention.
 
