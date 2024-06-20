@@ -13,7 +13,7 @@ def create_test_repo(repo_dir, commit_messages):
   Repo.init(repo_dir)
   repo = Repo(repo_dir)
   readme_path = os.path.join(repo_dir, "README.md")
-  
+   
   # Create initial file
   with open(readme_path, "w") as f:
     f.write("Initial content")
