@@ -1,8 +1,10 @@
 data/
-/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
 .idea/
 build/
 *.egg-info
 .venv/
 *.json
 plots/
+**/test_repo/
